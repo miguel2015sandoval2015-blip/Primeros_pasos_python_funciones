@@ -17,7 +17,7 @@ def capturar_rango():
 def procesar_rango(r):
     suma= 0
     for i in range(0,r,2):    
-    print("digite el numero" + str(i+1)+": ")
+      print("digite el numero" + str(i+1)+": ")
     numero=int(input())
     suma=suma+numero
     
@@ -39,5 +39,6 @@ if rango != 0:
 else:
     print("programa finalizado")    
   
+
 
 
